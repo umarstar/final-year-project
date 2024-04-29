@@ -1,0 +1,112 @@
+@import"../../Commonstyle/variables";
+
+
+.hero-main{
+    position: relative;
+    overflow: hidden;
+    margin-top: 76px;
+    @media only screen and (max-width: 575px) {
+        margin-top: 84px;
+    }
+    // &::after{
+    //     content: '';
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 150px;
+    //     top: -150px;
+    //     background: $BG-Linear-Gradiant;
+    //     opacity: 40%;
+    //     filter: blur(150px);
+    //     z-index: -1;
+    // }
+    // &::before{
+    //     content: '';
+    //     position: absolute;
+    //     width: 550px;
+    //     height: 550px;
+    //     bottom: 0;
+    //     left: -300px;
+    //     background: $BG-Linear-Gradiant;
+    //     opacity: 50%;
+    //     filter: blur(200px);
+    //     z-index: -1;
+    // }
+    .circle-blur1{
+        position: absolute;
+        width: 550px;
+        height: 550px;
+        top: -300px;
+        right: -300px;
+        background: $BG-Linear-Gradiant;
+        opacity: 50%;
+        filter: blur(200px);
+        z-index: -1;
+    }
+    .circle-blur2{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        bottom: -200px;
+        right: 0;
+        background: $BG-Linear-Gradiant;
+        opacity: 30%;
+        filter: blur(180px);
+        z-index: -1;
+    }
+    .container-fluid{
+        .hero-content{
+            position: relative;
+            text-align: center;
+            padding: 96px 0 128px 0;
+            @media only screen and (max-width: 991px) {
+                padding: 80px 0;
+            }
+            .heading{
+                color: $Black-Color;
+                .icon{
+                    @media only screen and (max-width: 991px) {
+                        height: 80px;
+                    }
+                    @media only screen and (max-width: 575px) {
+                        height: 56px;
+                    }
+                }
+            }
+            .desc{
+                color: $Black-Color;
+                margin: 32px 0 48px 0 !important;
+               
+                @media only screen and (max-width: 575px) {
+                    margin: 16px 0 36px 0;
+                }
+            }
+            .action{
+                display: flex;
+                justify-content: center;
+                .primary-btn{
+                    font-family: $Font-Family-Poppins-SemiBold;
+                }
+            }
+            .wrapper{
+                padding-top: 72px;
+                overflow: hidden;
+                @media only screen and (max-width: 575px) {
+                    padding-top: 48px;
+                }
+                .swiper-wrapper{
+                    height: auto;
+                    .swiper-slide{
+                        .img-otr{
+                            .img{
+                                width: 100%;
+                                height: 300px;
+                                object-fit: cover;
+                                border-radius: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

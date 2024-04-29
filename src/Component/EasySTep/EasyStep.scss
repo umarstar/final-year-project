@@ -1,0 +1,96 @@
+@import '../../Commonstyle/variables';
+
+.easy-step{
+    background-color: $White;
+    padding: 144px 0 144px 0;
+    
+    @media only screen and (max-width: 991px) {
+        padding: 90px 0 70px 0;
+    }
+    @media only screen and (max-width: 767px) {
+        padding: 45px 0 45px 0;
+    }
+    position: relative;
+    z-index: 200;
+    // background-color: #FEF5DE;
+    .container{
+        .row-custom{
+            justify-content: space-between;
+            align-items: center;
+            
+            @media only screen and (max-width: 767px) {
+                flex-direction: column-reverse;
+            }
+            .col-box1{
+               
+                .col-box1-inr{
+                    padding: 24px 32px;
+                    background-color: #FFFFFF;
+                    border-radius: 4px;
+                    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+                    display: grid;
+                    grid-template-columns: auto 1fr;
+                    align-items: center;
+                    
+                    @media only screen and (max-width: 992px) {
+                        padding: 15px 24px;
+                    }
+                    &:not(:last-child){
+                        margin-bottom: 30px;
+                    }
+                    .number-otr{
+                        width: 56px;
+                        height: 56px;
+                        background-color: transparent;
+                        border: 1px solid $primary-color;
+                        border-radius: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 16px;
+                        .numbers{
+                            color: $primary-color;
+                            font-family: $Font-Family-Poppins-SemiBold;
+                        }
+                    }
+                    .heading{
+                        color: #000000;
+                    }
+                }
+            }
+            .col-box2{
+               
+                @media only screen and (max-width: 767px) {
+                    padding-bottom: 70px;
+                }
+                .col-inr{
+                    .box2-heading{
+                        color: $black;
+                        padding-bottom: 36px;
+                        font-size: 48px;
+                        line-height: 66px;
+                        font-family: $Font-Family-Poppins-SemiBold;
+                    }
+                    .action{
+                        display: flex;
+
+                        .primary-btn{
+                            border-radius: 24px;
+                            padding: 18px 24px;
+                            color: #FFFFFF;
+                            background-color: #FBBF24;
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-family: $Font-Family-Poppins-SemiBold;
+                            transition: .3s;
+                            &:hover{
+                                background-color: #FFFFFF;
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

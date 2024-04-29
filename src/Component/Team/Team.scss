@@ -1,0 +1,123 @@
+@import"../../Commonstyle/variables";
+
+
+@media only screen and (max-width: 420px) {
+   
+}
+
+
+.create{
+    padding: 144px 0px;
+    
+    @media only screen and (max-width:991px) {
+        padding: 38px 0px;
+    }
+    .container{
+      .wrapper{
+          text-align: center;
+          padding-bottom: 72px;
+          .head-h4{
+              color: #1E1E1E;
+              font-size: 18px;
+              line-height: 32px;
+          }
+          .heading-h2{
+              font-size: 40px;
+              line-height: 56px;
+              color: #1E1E1E;
+              padding: 16px 0px 98px 0px;
+          }
+      }
+      .row-custom1{
+        justify-content: center;
+        
+        @media only screen and (max-width: 991px) {
+            gap: 124px 0px;
+        }
+          .creater-ot{
+              position: relative;
+              .img-otr{
+                  position: absolute;
+                  right: 50%;
+                  transform: translateX(50%);
+                  top: -50px;
+                  border-radius: 100%;
+                  &::after{
+                      content: "";
+                      content: "";
+                      position: absolute;
+                      height: 100px;
+                      width: 104%;
+                      left: -2px;
+                      top: -50px;
+                      z-index: -1;
+                  }
+                  .img-inr{
+                    height: 110px;
+                    width: 110px;
+                    padding: 6px;
+                    border-radius: 100%;
+                  }
+                  .img-inr1{
+                    height: 110px;
+                    width: 110px;
+                    padding: 6px;
+                    border-radius: 100%;
+                    object-fit: cover;
+                  }
+              }
+              .creater-inr{
+                  border-radius: 20px;
+                  background-color:$primary-light;
+                  text-align: center;
+                  border: 1px solid white;
+                  padding: 0px 30px;
+                  .head-h{
+                      font-size: 24px;
+                      line-height: 36px;
+                      color: #1E1E1E;
+                      padding-top: 66px !important;
+                  }
+                  .detail{
+                      padding: 8px 0px 24px 0px !important;
+                      font-size: 16px;
+                      line-height: 28px;
+                      color: #1E1E1E;
+                  }
+                  .social-ul{
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding-bottom: 45px !important;
+                    gap: 16px;
+                    .social-li{
+                        .social-a{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 100%;
+                            background-color: transparent;
+                            border: 1px solid $primary-color;
+                            transition: .3s;
+                            &:hover{
+                                background-color: $primary-color;
+                                .icon{
+                                    color: $White;
+                                }
+                            }
+                            .icon{
+                                font-size: 20px;
+                                color: $primary-color;
+                                transition: .3s;
+                            }
+                        }
+                    }
+                }
+              }
+          }
+      }
+    }
+  }

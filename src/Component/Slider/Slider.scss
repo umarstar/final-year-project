@@ -1,0 +1,28 @@
+@import"../../Commonstyle/variables";
+
+
+.slider{
+    .container-fluid{
+
+            .wrapper{
+                padding-top: 72px;
+                overflow: hidden;
+                @media only screen and (max-width: 575px) {
+                    padding-top: 48px;
+                }
+                .swiper-wrapper{
+                    height: auto;
+                    .swiper-slide{
+                        .img-otr{
+                            .img{
+                                width: 100%;
+                                height: 300px;
+                                object-fit: cover;
+                                border-radius: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

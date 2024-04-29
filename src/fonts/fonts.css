@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('./Poppins-SemiBold.eot');
+    src: url('./Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./Poppins-SemiBold.woff2') format('woff2'),
+        url('./Poppins-SemiBold.woff') format('woff'),
+        url('./Poppins-SemiBold.ttf') format('truetype'),
+        url('./Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('./Poppins-Regular.eot');
+    src: url('./Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Poppins-Regular.woff2') format('woff2'),
+        url('./Poppins-Regular.woff') format('woff'),
+        url('./Poppins-Regular.ttf') format('truetype'),
+        url('./Poppins-Regular.svg#Poppins-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('./Poppins-Bold.eot');
+    src: url('./Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Poppins-Bold.woff2') format('woff2'),
+        url('./Poppins-Bold.woff') format('woff'),
+        url('./Poppins-Bold.ttf') format('truetype'),
+        url('./Poppins-Bold.svg#Poppins-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Orbitron-Medium';
+    src: url('./Orbitron-Medium.eot');
+    src: url('./Orbitron-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./Orbitron-Medium.woff2') format('woff2'),
+        url('./Orbitron-Medium.woff') format('woff'),
+        url('./Orbitron-Medium.ttf') format('truetype'),
+        url('./Orbitron-Medium.svg#Orbitron-Medium') format('svg');
+}
+
+@font-face {
+    font-family: 'Orbitron-Regular';
+    src: url('./Orbitron-Regular.eot');
+    src: url('./Orbitron-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Orbitron-Regular.woff2') format('woff2'),
+        url('./Orbitron-Regular.woff') format('woff'),
+        url('./Orbitron-Regular.ttf') format('truetype'),
+        url('./Orbitron-Regular.svg#Orbitron-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Orbitron-Bold';
+    src: url('./Orbitron-Bold.eot');
+    src: url('./Orbitron-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Orbitron-Bold.woff2') format('woff2'),
+        url('./Orbitron-Bold.woff') format('woff'),
+        url('./Orbitron-Bold.ttf') format('truetype'),
+        url('./Orbitron-Bold.svg#Orbitron-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Orbitron-SemiBold';
+    src: url('./Orbitron-SemiBold.eot');
+    src: url('./Orbitron-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./Orbitron-SemiBold.woff2') format('woff2'),
+        url('./Orbitron-SemiBold.woff') format('woff'),
+        url('./Orbitron-SemiBold.ttf') format('truetype'),
+        url('./Orbitron-SemiBold.svg#Orbitron-SemiBold') format('svg');
+}
+

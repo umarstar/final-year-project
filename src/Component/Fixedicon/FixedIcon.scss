@@ -1,0 +1,32 @@
+@import"../../Commonstyle/variables";
+
+
+.fixed-icons{
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    .icon-ul{
+        .icon-li{
+            &:not(:last-child){
+                margin-bottom: 16px;
+            }
+            .icon-otr{
+                width: 60px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $White;
+                border-radius: 100%;
+                background-color: green;
+                box-shadow: $Box-Shadow;
+                .icon-inr{
+                    color: white;
+                    font-size: 34px;
+                }
+            }
+        }
+    }
+}

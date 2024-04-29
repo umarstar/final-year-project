@@ -1,0 +1,395 @@
+@import '../../Commonstyle/variables';
+
+
+
+// off-start
+.offcan{
+    z-index: 9999 !important;
+    overflow-y: hidden !important;
+    .logo-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo-otr{
+            .logo{
+                width: 95px;
+                height: 53px;
+                object-fit: cover;
+            }
+        }
+        
+    }
+    .close-icon-otr{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid $primary-color;
+        border-radius: 100%;
+        cursor: pointer;
+        transition: .3s;
+        &:hover{
+            border: 1px solid transparent;
+            background-color: $primary-color;
+            .close-icon{
+                color: $White;
+            }
+        }
+        .close-icon{
+            font-size: 20px;
+            line-height: 0;
+            color: $primary-color;
+            transition: .3s;
+        }
+    }
+    .off-body{
+        overflow-y: hidden !important;
+        .menu-ul{
+            padding-left: 20px;
+            margin: 36px 0px;
+            .menu-li{
+               &:not(:last-child){
+                margin-bottom: 12px;
+               }
+                .menu-a{
+                    display: flex;
+                    align-items: center;
+                    color: rgba(0, 0, 0, 0.75);
+                    transition: .3s;
+               text-decoration: none;
+        
+                    &:hover{
+                        color: $primary-color;
+                    }
+                   
+                    
+                }
+            }
+        }
+        .social-otr{
+            .heading{
+                color: $Black-Color;
+                margin-bottom: 16px;
+            }
+            .social-ul{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                // padding-top: 40px;
+                padding-left: 0;
+                gap: 16px;
+                // @include breakpoint ($secreen-xxs){
+                //     justify-content: center;
+                // }
+                .social-li{
+                    .social-a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 100%;
+                        background-color: transparent;
+                        border: 1px solid  rgb(78, 75 ,75 / 75%);
+                        transition: .3s;
+                        &:hover{
+                            background-color: $primary-color;
+                            border-color: $primary-color;
+                            .icon{
+                                color: $White;
+                            }
+                        }
+                        .icon{
+                            font-size: 20px;
+                            color:  rgb(78 ,75, 75 / 75%);
+                            transition: .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// offend
+
+// navstart
+.navbar-main{
+    background-color: #FFFFFF;
+    padding: 24px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9998;
+    box-shadow: 0px 15px 10px rgba(242, 88, 103, 0.1);
+    .container-fluid{
+        .nav-bar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            .logo-main{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                
+                @media only screen and (max-width: 991px) {
+                    justify-content: space-between;
+                }
+                .menu-icon-otr{
+                    display: none !important;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50px;
+                    height: 50px;
+                    background-color: transparent !important;
+                    border: 1px solid $primary-color !important;
+                    border-radius: 100% !important;
+                    margin-right: 16px;
+                    cursor: pointer;
+                    transition: .3s;
+                    @media only screen and (max-width: 991px) {
+                        display: flex !important;
+                    }
+                    @media only screen and (max-width: 576px) {
+                        width: 36px;
+                        height: 36px;
+                    }
+                    &:hover{
+                        color: $White !important;
+                        border: 1px solid transparent;
+                        background-color: $primary-color !important;
+                        .menu-icon{
+                            color: $White !important;
+                        }
+                    }
+                    .menu-icon{
+                        font-size: 20px !important;
+                        line-height: 0;
+                        color: $primary-color !important;
+                        transition: .3s;
+                        @media only screen and (max-width: 576px) {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .logo-otr{
+                    .logo{
+                        width: 95px;
+                        height: 53px;
+                        object-fit: cover;
+                        
+                        @media only screen and (max-width: 576px) {
+                            width: 80px;
+                        }
+                    }
+                }
+            }
+            .action-otr{
+                display: flex;
+                align-items: center;
+                .menu-otr{
+                    padding-right: 24px;
+                    
+                    @media only screen and (max-width: 991px) {
+                        display: none;
+                    }
+                    .menu-ul{
+                        display: flex;
+                        align-items: center;
+                        gap: 0 40px;
+                        .menu-li{
+                            position: relative;
+                            &:hover{
+                                .menu-drop-otr{
+                                    opacity: 1;
+                                    visibility: visible;
+                                    top: 24px;
+                                }
+                            }
+                            .menu-a{
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                color: rgba(0, 0, 0, 0.75);
+                                transition: .3s;
+                                text-decoration: none;
+                                cursor: pointer;
+                                &:hover{
+                                    color: $primary-color;
+                                    .circle-img{
+                                        opacity: 1;
+                                        visibility: visible;
+                                    }
+                                }
+                                .circle-img{
+                                    position: absolute;
+                                    left: -24px;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    width: 16px;
+                                    height: 16px;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    transition: .3s;
+                                }
+                            }
+                            .menu-drop-otr{
+                                position: absolute;
+                                left: -24px;
+                                top: 100px;
+                                padding-top: 24px;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: .3s;
+                                z-index: 9999;
+                                .arrow-box{
+                                    width: 20px;
+                                    height: 20px;
+                                    position: absolute;
+                                    top: 14px;
+                                    left: 48px;
+                                    border-radius: 2px;
+                                    background-color: $Black-Color2;
+                                    transform: rotate(45deg);
+                                    z-index: -1;
+                                }
+                                .drop-ul{
+                                    width: 250px;
+                                    background-color: $Black-Color2;
+                                    padding: 16px 24px;
+                                    border-radius: 4px;
+                                    z-index: 9999;
+                                    .drop-li{
+                                        position: relative;
+                                        &:not(:last-child){
+                                            margin-bottom: 12px;
+                                        }
+                                        &:hover{
+                                            .other-drop-otr{
+                                                opacity: 1;
+                                                visibility: visible;
+                                                top: 20px;
+                                            }
+                                        }
+                                        .drop-a{
+                                            position: relative;
+                                            display: flex;
+                                            align-items: center;
+                                            color: $White-Color;
+                                            cursor: pointer;
+                                            transition: .3s;
+                                            &:hover{
+                                                padding-left: 24px;
+                                                .drop-circle{
+                                                    opacity: 1;
+                                                    visibility: visible;
+                                                }
+                                            }
+                                            .drop-circle{
+                                                position: absolute;
+                                                left: 0px;
+                                                top: 50%;
+                                                transform: translateY(-50%);
+                                                width: 16px;
+                                                height: 16px;
+                                                opacity: 0;
+                                                visibility: hidden;
+                                                transition: .3s;
+                                            }
+                                        }
+                                        .other-drop-otr{
+                                            position: absolute;
+                                            right: 180px;
+                                            top: 100px;
+                                            padding-top: 36px;
+                                            opacity: 0;
+                                            visibility: hidden;
+                                            transition: .3s;
+                                            z-index: 9999;
+                                            .other-arrow-box{
+                                                width: 20px;
+                                                height: 20px;
+                                                position: absolute;
+                                                top: 26px;
+                                                right: 24px;
+                                                border-radius: 2px;
+                                                background-color: $Black-Color2;
+                                                transform: rotate(45deg);
+                                                z-index: -1;
+                                            }
+                                            .other-drop-ul{
+                                                width: 250px;
+                                                background-color: $Black-Color2;
+                                                padding: 16px 24px;
+                                                border-radius: 4px;
+                                                z-index: 9999;
+                                                .other-drop-li{
+                                                    &:not(:last-child){
+                                                        margin-bottom: 12px;
+                                                    }
+                                                    .other-drop-a{
+                                                        position: relative;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        color: $White-Color;
+                                                        transition: .3s;
+                                                        &:hover{
+                                                            padding-left: 24px;
+                                                            .drop-circle{
+                                                                opacity: 1;
+                                                                visibility: visible;
+                                                            }
+                                                        }
+                                                        .drop-circle{
+                                                            position: absolute;
+                                                            left: 0px;
+                                                            top: 50%;
+                                                            transform: translateY(-50%);
+                                                            width: 16px;
+                                                            height: 16px;
+                                                            opacity: 0;
+                                                            visibility: hidden;
+                                                            transition: .3s;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .action{
+                    display: flex;
+                    align-items: center;
+                    gap: 0 24px;
+                    padding-left: 24px;
+                    border-left: 1px solid $White-45;
+                    @media only screen and (max-width: 991px) {
+                        border-left: 1px solid transparent;
+                        padding-left: 0;
+                    }
+                    @media only screen and (max-width: 576px) {
+                        gap: 0 16px;
+                    }
+                    .icon-otr{
+                        .icon{
+                            height: 40px;
+                            cursor: pointer;
+                            @media only screen and (max-width: 757px) {
+                                height: 36px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

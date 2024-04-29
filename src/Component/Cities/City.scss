@@ -1,0 +1,77 @@
+@import"../../Commonstyle/variables";
+
+
+.our-involvment{
+    padding: 128px 0 0px 0;
+  
+    @media only screen and (max-width: 991px) {
+        padding: 72px 0 0 0;
+    }
+    @media only screen and (max-width: 420px) {
+        padding: 0px 0 0 0;
+    }
+    .container-fluid{
+        .row-custom{
+            padding-bottom: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            align-items: center;
+               
+            @media only screen and (max-width: 420px) {
+                padding-bottom: 72px;
+            
+            }
+            .col-content-otr{
+                .col-content-inr{
+                    @media only screen and (max-width: 991px) {
+                        padding-bottom: 72px;
+                    }
+                    @media only screen and (max-width: 575px) {
+                        padding-bottom: 48px;
+                    }
+                    .heading-LB{
+                        // background-image: $Gradient;
+                        color: transparent;
+                        display: inline;
+                        // -webkit-background-clip: text;
+                    }
+                    .heading-H2{
+                        padding-top: 16px;
+                        padding-bottom: 24px;
+                        align-items: center;
+                        color: $black;
+                    }
+                    .heading-M{
+                        color: $black;
+                    }
+                }
+            }
+            .col-img-otr{
+                .col-img-inr{              
+                    .img{
+                        height: 400px;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    .img-sec1{
+                        height: 400px;
+                        width: 100%;
+                        border-radius: 4px;
+                    }
+                    .img-sec2{
+                        height: 400px;
+                        width: 100%;
+                        border-radius: 4px;
+                    }
+                    .img-sec3{
+                        height: 400px;
+                        width: 100%;
+                        border-radius: 4px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
