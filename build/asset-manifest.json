@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/final-year-project/static/css/main.32460e79.css",
-    "main.js": "/final-year-project/static/js/main.5636e74d.js",
+    "main.css": "/final-year-project/static/css/main.095ece13.css",
+    "main.js": "/final-year-project/static/js/main.c46dae32.js",
     "static/media/Poppins-Regular.svg": "/final-year-project/static/media/Poppins-Regular.3383485fc42dbbbbb52d.svg",
     "static/media/Poppins-SemiBold.svg": "/final-year-project/static/media/Poppins-SemiBold.24b955c03495ee435e5d.svg",
     "static/media/Poppins-Bold.svg": "/final-year-project/static/media/Poppins-Bold.802604543236518d4254.svg",
@@ -48,11 +48,11 @@
     "static/media/Orbitron-Bold.woff2": "/final-year-project/static/media/Orbitron-Bold.2ac0ed04b8119e8468ab.woff2",
     "static/media/Orbitron-Regular.woff2": "/final-year-project/static/media/Orbitron-Regular.2d2becdbdbbc0dff5116.woff2",
     "index.html": "/final-year-project/index.html",
-    "main.32460e79.css.map": "/final-year-project/static/css/main.32460e79.css.map",
-    "main.5636e74d.js.map": "/final-year-project/static/js/main.5636e74d.js.map"
+    "main.095ece13.css.map": "/final-year-project/static/css/main.095ece13.css.map",
+    "main.c46dae32.js.map": "/final-year-project/static/js/main.c46dae32.js.map"
   },
   "entrypoints": [
-    "static/css/main.32460e79.css",
-    "static/js/main.5636e74d.js"
+    "static/css/main.095ece13.css",
+    "static/js/main.c46dae32.js"
   ]
 }
