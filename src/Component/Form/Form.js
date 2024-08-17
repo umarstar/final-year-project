@@ -14,7 +14,7 @@ function Form() {
 //    senddata()
 // },[])
 
-
+const apiUrl = 'https://backaend-final-year-project.vercel.app/api'
   const senddata= async()=>{
     console.log(!firstname);
   if(!firstname || !lastname || !email ||!phonenumber || !massage){
@@ -22,7 +22,7 @@ function Form() {
     return false
   }
     //  console.log(firstname,lastname,email,phone,massage);
-     let result = await fetch("http://localhost:4000/post",{
+     let result = await fetch(`${apiUrl}/post`,{
       method:"post",
             body :JSON.stringify({firstname,lastname,email,phonenumber,massage}),
            headers: {
