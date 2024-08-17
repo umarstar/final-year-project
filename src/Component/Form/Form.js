@@ -14,7 +14,7 @@ function Form() {
 //    senddata()
 // },[])
 
-const apiUrl = 'https://backaend-final-year-project.vercel.app/api'
+const apiUrl = 'https://backaend-final-year-project.vercel.app';
   const senddata= async()=>{
     console.log(!firstname);
   if(!firstname || !lastname || !email ||!phonenumber || !massage){
