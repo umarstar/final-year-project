@@ -1,5 +1,5 @@
 {
-  "homepage": "http://umarstar.github.io/final-year-project",
+  
   "name": "umar-project",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.2",
-    "gh-pages": "^6.1.1",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
@@ -23,8 +22,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
